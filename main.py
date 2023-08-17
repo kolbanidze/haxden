@@ -1,7 +1,7 @@
 from dotenv import load_dotenv, set_key
 from os import getenv
 from requests import get
-from json import loads as jsonloads
+from json import loads as json_loads
 from time import sleep
 from bs4 import BeautifulSoup
 
@@ -69,7 +69,7 @@ class App:
         # It gets all bot updates. When it detects that bot was added as admin to group it will save API and group id
         # in .env file. After that you no longer need to enter API key.
         while True:
-            data = jsonloads(get(f"https://api.telegram.org/bot{api_key}/getUpdates").text)
+            data = json_loads(get(f"https://api.telegram.org/bot{api_key}/getUpdates").text)
             if data['ok']:
                 result = data.get('result')
                 if len(result) != 0:

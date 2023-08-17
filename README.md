@@ -4,7 +4,7 @@ Hax.co.id & Woiden.id parser with Telegram notification.
 ## What does this app use
 For Telegram API it uses _https://api.telegram.org_.
 
-For getting pages it uses built-in _requests_ library.
+For getting pages it uses _requests_ library.
 
 For parsing it uses _BeautifulSoup_ library.
 
