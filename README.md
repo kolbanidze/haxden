@@ -18,21 +18,32 @@ Then it will start parsing. When it found available server it will send notifica
 
 ## Bot creation guide
 Go to @BotFather and send /newbot command. Choose name and username for bot. Then you will get API key
+
 ![Creating bot](media/tg0.png)
+
 Then you need to enter that API key to app (**and only then add bot to group!**).
 You need to create group (no matter private or public). Then you need to add bot to group as admin.
 ### Step-by-step guide adding bot to group
 <details><p>
 
 ![1](media/tg1.png)
+
 ![2](media/tg2.png)
+
 ![3](media/tg3.png)
+
 ![4](media/tg4.png)
+
 ![5](media/tg5.png)
+
 ![6](media/tg6.png)
+
 ![7](media/tg7.png)
+
 ![8](media/tg8.png)
+
 ![9](media/tg9.png)
+
 </p></details>
 
 ## Install
